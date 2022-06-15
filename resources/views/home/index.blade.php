@@ -6,15 +6,26 @@
     <div class="hero-slider section">
 
         <!--Hero Item start-->
-        <div class="hero-item  bg-image" data-bg="{{url('assets')}}/assets/images/hero/hero-1.jpg">
+        <div class="hero-item  bg-image" data-bg="{{url('assets')}}/assets/images/backgroundOxyStore.png">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
 
                         <!--Hero Content start-->
                         <div class="hero-content-2 center">
-
-                            <h2>Creative Design <br> Modern & Exclusive Furniture</h2>
+                            <h2 
+                                style="
+                                    background-color: #ffffff;
+                                    border-radius:15px;
+                                    width:400px;
+                                    margin: auto;
+                                    margin-bottom:30vh;
+                                    padding-top: 30px;
+                                    height: 120px"
+                            >
+                                OXY STORE
+                                <br>
+                            </h2>
                             <a href="shop.html" class="btn">SHOP NOW</a>
 
                         </div>
@@ -27,15 +38,25 @@
         <!--Hero Item end-->
 
         <!--Hero Item start-->
-        <div class="hero-item bg-image" data-bg="{{url('assets')}}/assets/images/hero/hero-2.jpg">
+        <div class="hero-item bg-image" data-bg="{{url('assets')}}/assets/images/backgroundOxyStore.png">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-
                         <!--Hero Content start-->
                         <div class="hero-content-2 center">
-
-                            <h2>Creative Design <br> Modern & Exclusive Furniture</h2>
+                            <h2 
+                                style="
+                                    background-color: #ffffff;
+                                    border-radius:15px;
+                                    width:400px;
+                                    margin: auto;
+                                    margin-bottom:30vh;
+                                    padding-top: 30px;
+                                    height: 120px"
+                            >
+                                OXY STORE
+                                <br>
+                            </h2>
                             <a href="shop.html" class="btn">SHOP NOW</a>
 
                         </div>
@@ -62,11 +83,11 @@
                 <div class="single-banner-item mb-30">
                     <div class="banner-image">
                         <a href="shop.html">
-                            <img src="{{url('assets')}}/assets/images/banner/banner1.jpg" alt="">
+                            <img src="{{url('assets')}}/assets/images/OxyWater.png" alt="">
                         </a>
                     </div>
                     <div class="banner-content">
-                        <h3 class="title">OFFICE <br> FURNITURE</h3>
+                        <h3 class="title">Oxy <br> Water</h3>
                         <a href="shop.html">SHOP NOW</a>
                     </div>
                 </div>
@@ -77,11 +98,11 @@
                 <div class="single-banner-item mb-30">
                     <div class="banner-image">
                         <a href="shop-left-sidebar.html">
-                            <img src="{{url('assets')}}/assets/images/banner/banner2.jpg" alt="">
+                            <img src="{{url('assets')}}/assets/images/Clothes-3.jpeg" alt="">
                         </a>
                     </div>
-                    <div class="banner-content tr-right">
-                        <h3 class="title">HOME <br> FURNITURE</h3>
+                    <div class="banner-content tr-right" style="color:#ffffff">
+                        <h3 class="title" style="color:#ffffff">Clothes</h3>
                         <a href="shop.html">SHOP NOW</a>
                     </div>
                 </div>
@@ -101,477 +122,191 @@
         <div class="row">
             <div class="col">
                 <div class="section-title text-center mb-15">
-                    <h2>Popular Furniture</h2>
+                    <h2>Popular Product</h2>
                 </div>
                 <div class="product-tab mb-50 mb-sm-30 mb-xs-20">
                     <ul class="nav">
-                        <li><a class="active show" data-toggle="tab" href="#home">HOME</a></li>
-                        <li><a data-toggle="tab" href="#office">OFFICE</a></li>
+                        <li><a class="active show" data-toggle="tab" href="#Water">Water</a></li>
+                        <li><a data-toggle="tab" href="#clothes">Clothes</a></li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="tab-content">
-            <div id="home" class="tab-pane fade active show">
-                <div class="row">
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <!--  Single Grid product Start -->
-                        <div class="single-grid-product mb-40">
-                            <div class="product-image">
-                                <div class="product-label">
-                                    <span>-20%</span>
-                                </div>
-                                <a href="single-product.html">
-                                    <img src="{{url('assets')}}/assets/images/product/product-1.jpg" class="img-fluid" alt="">
-                                    <img src="{{url('assets')}}/assets/images/product/product-2.jpg" class="img-fluid" alt="">
-                                </a>
-
-                                <div class="product-action">
-                                    <ul>
-                                        <li><a href="cart.html"><i class="fa fa-cart-plus"></i></a></li>
-                                        <li><a href="#quick-view-modal-container" data-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="wishlit.html"><i class="fa fa-heart-o"></i></a></li>
-                                    </ul>
+            <div class="banner-section section pb-40 pb-sm-30 pb-xs-0">
+                <div id="Water" class="tab-pane fade active show">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <!-- Single Banner Start -->
+                            <div 
+                                class="
+                                    single-banner-item
+                                    pt-100
+                                    pt-md-80
+                                    pt-sm-70
+                                    pt-xs-50
+                                    pb-120
+                                    pb-md-100
+                                    pb-sm-90
+                                    pb-xs-50
+                                    mb-30
+                                    bg-image" 
+                                data-bg="{{url('assets')}}/assets/images/OxyWater.png"
+                                style="object-fit:contain"
+                            >
+                                <div class="sp-banner-content">
+                                    <span class="normat-text">New !!!</span>
+                                    <h2 class="title">Oxy Water</h2>
+                                    <span class="normat-text">LIMITED TIME OFEER</span>
+                                    <div class="countdown-area">
+                                        <div class="product-countdown" data-countdown="2022/06/30"></div>
+                                    </div>
+                                    <a href="shop.html">SHOP NOW</a>
                                 </div>
                             </div>
-                            <div class="product-content">
-                                <h3 class="title"> <a href="single-product.html">Stylish Design Chair</a></h3>
-                                <p class="product-price"><span class="discounted-price">$190.00</span> <span class="main-price discounted">$230.00</span></p>
-                            </div>
+                            <!-- Single Banner End -->
                         </div>
-                        <!--  Single Grid product End -->
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <!--  Single Grid product Start -->
-                        <div class="single-grid-product mb-40">
-                            <div class="product-image">
-                                <div class="product-label">
-                                    <span>-20%</span>
-                                </div>
-                                <a href="single-product.html">
-                                    <img src="{{url('assets')}}/assets/images/product/product-2.jpg" class="img-fluid" alt="">
-                                    <img src="{{url('assets')}}/assets/images/product/product-3.jpg" class="img-fluid" alt="">
-                                </a>
-
-                                <div class="product-action">
-                                    <ul>
-                                        <li><a href="cart.html"><i class="fa fa-cart-plus"></i></a></li>
-                                        <li><a href="#quick-view-modal-container" data-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="wishlit.html"><i class="fa fa-heart-o"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <h3 class="title"> <a href="single-product.html">Miro Dining Table</a></h3>
-                                <p class="product-price"><span class="discounted-price">$113.00</span> <span class="main-price discounted">$180.00</span></p>
-                            </div>
-                        </div>
-                        <!--  Single Grid product End -->
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <!--  Single Grid product Start -->
-                        <div class="single-grid-product mb-40">
-                            <div class="product-image">
-                                <div class="product-label">
-                                    <span>-20%</span>
-                                </div>
-                                <a href="single-product.html">
-                                    <img src="{{url('assets')}}/assets/images/product/product-4.jpg" class="img-fluid" alt="">
-                                    <img src="{{url('assets')}}/assets/images/product/product-1.jpg" class="img-fluid" alt="">
-                                </a>
-
-                                <div class="product-action">
-                                    <ul>
-                                        <li><a href="cart.html"><i class="fa fa-cart-plus"></i></a></li>
-                                        <li><a href="#quick-view-modal-container" data-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="wishlit.html"><i class="fa fa-heart-o"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <h3 class="title"> <a href="single-product.html">Janus Table Lamp</a></h3>
-                                <p class="product-price"><span class="discounted-price">$86.00</span> <span class="main-price discounted">$150.00</span></p>
-                            </div>
-                        </div>
-                        <!--  Single Grid product End -->
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <!--  Single Grid product Start -->
-                        <div class="single-grid-product mb-40">
-                            <div class="product-image">
-                                <a href="single-product.html">
-                                    <img src="{{url('assets')}}/assets/images/product/product-3.jpg" class="img-fluid" alt="">
-                                </a>
-
-                                <div class="product-action">
-                                    <ul>
-                                        <li><a href="cart.html"><i class="fa fa-cart-plus"></i></a></li>
-                                        <li><a href="#quick-view-modal-container" data-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="wishlit.html"><i class="fa fa-heart-o"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <h3 class="title"> <a href="single-product.html">Discus Floor and Table</a></h3>
-                                <p class="product-price"><span class="discounted-price">$290.00</span> <span class="main-price discounted">$330.00</span></p>
-                            </div>
-                        </div>
-                        <!--  Single Grid product End -->
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <!--  Single Grid product Start -->
-                        <div class="single-grid-product mb-40">
-                            <div class="product-image">
-                                <div class="product-label">
-                                    <span class="sale">Sale</span>
-                                </div>
-                                <a href="single-product.html">
-                                    <img src="{{url('assets')}}/assets/images/product/product-5.jpg" class="img-fluid" alt="">
-                                    <img src="{{url('assets')}}/assets/images/product/product-2.jpg" class="img-fluid" alt="">
-                                </a>
-
-                                <div class="product-action">
-                                    <ul>
-                                        <li><a href="cart.html"><i class="fa fa-cart-plus"></i></a></li>
-                                        <li><a href="#quick-view-modal-container" data-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="wishlit.html"><i class="fa fa-heart-o"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <h3 class="title"> <a href="single-product.html">Sled Mini Sideboard</a></h3>
-                                <p class="product-price"><span class="discounted-price">$90.00</span></p>
-                            </div>
-                        </div>
-                        <!--  Single Grid product End -->
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <!--  Single Grid product Start -->
-                        <div class="single-grid-product mb-40">
-                            <div class="product-image">
-                                <div class="product-label">
-                                    <span class="sale">New</span>
-                                </div>
-                                <a href="single-product.html">
-                                    <img src="{{url('assets')}}/assets/images/product/product-6.jpg" class="img-fluid" alt="">
-                                    <img src="{{url('assets')}}/assets/images/product/product-4.jpg" class="img-fluid" alt="">
-                                </a>
-
-                                <div class="product-action">
-                                    <ul>
-                                        <li><a href="cart.html"><i class="fa fa-cart-plus"></i></a></li>
-                                        <li><a href="#quick-view-modal-container" data-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="wishlit.html"><i class="fa fa-heart-o"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <h3 class="title"> <a href="single-product.html">Mega 2 Seater Sofa</a></h3>
-                                <p class="product-price"><span class="discounted-price">$390.00</span> <span class="main-price discounted">$470.00</span></p>
-                            </div>
-                        </div>
-                        <!--  Single Grid product End -->
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <!--  Single Grid product Start -->
-                        <div class="single-grid-product mb-40">
-                            <div class="product-image">
-                                <div class="product-label">
-                                    <span>-20%</span>
-                                </div>
-                                <a href="single-product.html">
-                                    <img src="{{url('assets')}}/assets/images/product/product-7.jpg" class="img-fluid" alt="">
-                                </a>
-
-                                <div class="product-action">
-                                    <ul>
-                                        <li><a href="cart.html"><i class="fa fa-cart-plus"></i></a></li>
-                                        <li><a href="#quick-view-modal-container" data-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="wishlit.html"><i class="fa fa-heart-o"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <h3 class="title"> <a href="single-product.html">Sentei Pruning Shears</a></h3>
-                                <p class="product-price"><span class="discounted-price">$65.00</span> </p>
-                            </div>
-                        </div>
-                        <!--  Single Grid product End -->
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <!--  Single Grid product Start -->
-                        <div class="single-grid-product mb-40">
-                            <div class="product-image">
-                                <div class="product-label">
-                                    <span>-29%</span>
-                                </div>
-                                <a href="single-product.html">
-                                    <img src="{{url('assets')}}/assets/images/product/product-8.jpg" class="img-fluid" alt="">
-                                    <img src="{{url('assets')}}/assets/images/product/product-2.jpg" class="img-fluid" alt="">
-                                </a>
-
-                                <div class="product-action">
-                                    <ul>
-                                        <li><a href="cart.html"><i class="fa fa-cart-plus"></i></a></li>
-                                        <li><a href="#quick-view-modal-container" data-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="wishlit.html"><i class="fa fa-heart-o"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <h3 class="title"> <a href="single-product.html">Affordances Side Table</a></h3>
-                                <p class="product-price"><span class="discounted-price">$170.00</span> <span class="main-price discounted">$280.00</span></p>
-                            </div>
-                        </div>
-                        <!--  Single Grid product End -->
                     </div>
                 </div>
-            </div>
-            <div id="office" class="tab-pane">
-                <div class="row">
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <!--  Single Grid product Start -->
-                        <div class="single-grid-product mb-40">
-                            <div class="product-image">
-                                <a href="single-product.html">
-                                    <img src="{{url('assets')}}/assets/images/product/product-9.jpg" class="img-fluid" alt="">
-                                    <img src="{{url('assets')}}/assets/images/product/product-10.jpg" class="img-fluid" alt="">
-                                </a>
+                <div id="clothes" class="tab-pane">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <!--  Single Grid product Start -->
+                            <div class="single-grid-product mb-40">
+                                <div class="product-image">
+                                    <div class="product-label">
+                                        <span class="sale">New</span>
+                                    </div>
+                                    <a href="single-product.html">
+                                        <img src="{{url('assets')}}/assets/images/Clothes-1-miror.jpeg" class="img-fluid" alt="">
+                                        <img src="{{url('assets')}}/assets/images/Clothes-1-miror.jpeg" class="img-fluid" alt="">
+                                    </a>
 
-                                <div class="product-action">
-                                    <ul>
-                                        <li><a href="cart.html"><i class="fa fa-cart-plus"></i></a></li>
-                                        <li><a href="#quick-view-modal-container" data-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="wishlit.html"><i class="fa fa-heart-o"></i></a></li>
-                                    </ul>
+                                    <div class="product-action">
+                                        <ul>
+                                            <li><a href="cart.html"><i class="fa fa-cart-plus"></i></a></li>
+                                            <li><a href="#quick-view-modal-container" data-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
+                                            <li><a href="wishlit.html"><i class="fa fa-heart-o"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title"> <a href="single-product.html">Clothes One</a></h3>
+                                    <p class="product-price"><span class="discounted-price">Rp.80.000</span> <span class="main-price discounted">Rp.100.000</span></p>
                                 </div>
                             </div>
-                            <div class="product-content">
-                                <h3 class="title"> <a href="single-product.html">Normal Dining chair</a></h3>
-                                <p class="product-price"><span class="discounted-price">$130.00</span> </p>
-                            </div>
+                            <!--  Single Grid product End -->
                         </div>
-                        <!--  Single Grid product End -->
-                    </div>
 
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <!--  Single Grid product Start -->
-                        <div class="single-grid-product mb-40">
-                            <div class="product-image">
-                                <div class="product-label">
-                                    <span class="sale">Sale</span>
+                        <div class="col-lg-6 col-md-5 col-sm-5">
+                            <!--  Single Grid product Start -->
+                            <div class="single-grid-product mb-40">
+                                <div class="product-image">
+                                    <a href="single-product.html">
+                                        <img src="{{url('assets')}}/assets/images/Clothes-2.jpeg" class="img-fluid" alt="">
+                                        <img src="{{url('assets')}}/assets/images/Clothes-2.jpeg" class="img-fluid" alt="">
+                                    </a>
+
+                                    <div class="product-action">
+                                        <ul>
+                                            <li><a href="cart.html"><i class="fa fa-cart-plus"></i></a></li>
+                                            <li><a href="#quick-view-modal-container" data-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
+                                            <li><a href="wishlit.html"><i class="fa fa-heart-o"></i></a></li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <a href="single-product.html">
-                                    <img src="{{url('assets')}}/assets/images/product/product-11.jpg" class="img-fluid" alt="">
-                                    <img src="{{url('assets')}}/assets/images/product/product-12.jpg" class="img-fluid" alt="">
-                                </a>
-
-                                <div class="product-action">
-                                    <ul>
-                                        <li><a href="cart.html"><i class="fa fa-cart-plus"></i></a></li>
-                                        <li><a href="#quick-view-modal-container" data-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="wishlit.html"><i class="fa fa-heart-o"></i></a></li>
-                                    </ul>
+                                <div class="product-content">
+                                    <h3 class="title"> <a href="single-product.html">Clothes Two</a></h3>
+                                    <p class="product-price"><span class="discounted-price">Rp.50.000</span> <span class="main-price discounted">Rp.60.000</span></p>
                                 </div>
                             </div>
-                            <div class="product-content">
-                                <h3 class="title"> <a href="single-product.html">Tripod lampshade</a></h3>
-                                <p class="product-price"><span class="discounted-price">$210.00</span> <span class="main-price discounted">$240.00</span></p>
-                            </div>
+                            <!--  Single Grid product End -->
                         </div>
-                        <!--  Single Grid product End -->
-                    </div>
 
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <!--  Single Grid product Start -->
-                        <div class="single-grid-product mb-40">
-                            <div class="product-image">
-                                <a href="single-product.html">
-                                    <img src="{{url('assets')}}/assets/images/product/product-10.jpg" class="img-fluid" alt="">
-                                    <img src="{{url('assets')}}/assets/images/product/product-13.jpg" class="img-fluid" alt="">
-                                </a>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <!--  Single Grid product Start -->
+                            <div class="single-grid-product mb-40">
+                                <div class="product-image">
+                                    <a href="single-product.html">
+                                        <img src="{{url('assets')}}/assets/images/Clothes-3.jpeg" class="img-fluid" alt="">
+                                    </a>
 
-                                <div class="product-action">
-                                    <ul>
-                                        <li><a href="cart.html"><i class="fa fa-cart-plus"></i></a></li>
-                                        <li><a href="#quick-view-modal-container" data-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="wishlit.html"><i class="fa fa-heart-o"></i></a></li>
-                                    </ul>
+                                    <div class="product-action">
+                                        <ul>
+                                            <li><a href="cart.html"><i class="fa fa-cart-plus"></i></a></li>
+                                            <li><a href="#quick-view-modal-container" data-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
+                                            <li><a href="wishlit.html"><i class="fa fa-heart-o"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title"> <a href="single-product.html">Clothes Three</a></h3>
+                                    <p class="product-price"><span class="discounted-price">Rp.75.000</span></p>
                                 </div>
                             </div>
-                            <div class="product-content">
-                                <h3 class="title"> <a href="single-product.html">Hot Design Table</a></h3>
-                                <p class="product-price"><span class="discounted-price">$250.00</span> <span class="main-price discounted">$280.00</span></p>
-                            </div>
+                            <!--  Single Grid product End -->
                         </div>
-                        <!--  Single Grid product End -->
-                    </div>
 
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <!--  Single Grid product Start -->
-                        <div class="single-grid-product mb-40">
-                            <div class="product-image">
-                                <a href="single-product.html">
-                                    <img src="{{url('assets')}}/assets/images/product/product-14.jpg" class="img-fluid" alt="">
-                                </a>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <!--  Single Grid product Start -->
+                            <div class="single-grid-product mb-40">
+                                <div class="product-image">
+                                    <div class="product-label">
+                                        <span class="sale">New</span>
+                                    </div>
+                                    <a href="single-product.html">
+                                        <img src="{{url('assets')}}/assets/images/Clothes-4.jpeg" class="img-fluid" alt="">
+                                        <img src="{{url('assets')}}/assets/images/Clothes-4.jpeg" class="img-fluid" alt="">
+                                    </a>
 
-                                <div class="product-action">
-                                    <ul>
-                                        <li><a href="cart.html"><i class="fa fa-cart-plus"></i></a></li>
-                                        <li><a href="#quick-view-modal-container" data-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="wishlit.html"><i class="fa fa-heart-o"></i></a></li>
-                                    </ul>
+                                    <div class="product-action">
+                                        <ul>
+                                            <li><a href="cart.html"><i class="fa fa-cart-plus"></i></a></li>
+                                            <li><a href="#quick-view-modal-container" data-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
+                                            <li><a href="wishlit.html"><i class="fa fa-heart-o"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title"> <a href="single-product.html">Clothes Four</a></h3>
+                                    <p class="product-price"><span class="discounted-price">Rp.50.000</span></p>
                                 </div>
                             </div>
-                            <div class="product-content">
-                                <h3 class="title"> <a href="single-product.html">Outdoor Lock Chair</a></h3>
-                                <p class="product-price"><span class="discounted-price">$180.00</span></p>
-                            </div>
+                            <!--  Single Grid product End -->
                         </div>
-                        <!--  Single Grid product End -->
-                    </div>
 
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <!--  Single Grid product Start -->
-                        <div class="single-grid-product mb-40">
-                            <div class="product-image">
-                                <div class="product-label">
-                                    <span class="sale">New</span>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <!--  Single Grid product Start -->
+                            <div class="single-grid-product mb-40">
+                                <div class="product-image">
+                                    <a href="single-product.html">
+                                        <img src="{{url('assets')}}/assets/images/Clothes-5.jpeg" class="img-fluid" alt="">
+                                        <img src="{{url('assets')}}/assets/images/Clothes-5.jpeg" class="img-fluid" alt="">
+                                    </a>
+
+                                    <div class="product-action">
+                                        <ul>
+                                            <li><a href="cart.html"><i class="fa fa-cart-plus"></i></a></li>
+                                            <li><a href="#quick-view-modal-container" data-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
+                                            <li><a href="wishlit.html"><i class="fa fa-heart-o"></i></a></li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <a href="single-product.html">
-                                    <img src="{{url('assets')}}/assets/images/product/product-14.jpg" class="img-fluid" alt="">
-                                    <img src="{{url('assets')}}/assets/images/product/product-13.jpg" class="img-fluid" alt="">
-                                </a>
-
-                                <div class="product-action">
-                                    <ul>
-                                        <li><a href="cart.html"><i class="fa fa-cart-plus"></i></a></li>
-                                        <li><a href="#quick-view-modal-container" data-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="wishlit.html"><i class="fa fa-heart-o"></i></a></li>
-                                    </ul>
+                                <div class="product-content">
+                                    <h3 class="title"> <a href="single-product.html">Clothes Fifth</a></h3>
+                                    <p class="product-price"><span class="discounted-price">Rp.73.500</span> <span class="main-price discounted">Rp.100.000</span></p>
                                 </div>
                             </div>
-                            <div class="product-content">
-                                <h3 class="title"> <a href="single-product.html">Classic Chair</a></h3>
-                                <p class="product-price"><span class="discounted-price">$60.00</span> </p>
-                            </div>
+                            <!--  Single Grid product End -->
                         </div>
-                        <!--  Single Grid product End -->
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <!--  Single Grid product Start -->
-                        <div class="single-grid-product mb-40">
-                            <div class="product-image">
-                                <a href="single-product.html">
-                                    <img src="{{url('assets')}}/assets/images/product/product-15.jpg" class="img-fluid" alt="">
-                                    <img src="{{url('assets')}}/assets/images/product/product-16.jpg" class="img-fluid" alt="">
-                                </a>
-
-                                <div class="product-action">
-                                    <ul>
-                                        <li><a href="cart.html"><i class="fa fa-cart-plus"></i></a></li>
-                                        <li><a href="#quick-view-modal-container" data-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="wishlit.html"><i class="fa fa-heart-o"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <h3 class="title"> <a href="single-product.html">Classic Chair Wodden</a></h3>
-                                <p class="product-price"><span class="discounted-price">$183.00</span> <span class="main-price discounted">$200.00</span></p>
-                            </div>
-                        </div>
-                        <!--  Single Grid product End -->
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <!--  Single Grid product Start -->
-                        <div class="single-grid-product mb-40">
-                            <div class="product-image">
-                                <a href="single-product.html">
-                                    <img src="{{url('assets')}}/assets/images/product/product-10.jpg" class="img-fluid" alt="">
-                                </a>
-
-                                <div class="product-action">
-                                    <ul>
-                                        <li><a href="cart.html"><i class="fa fa-cart-plus"></i></a></li>
-                                        <li><a href="#quick-view-modal-container" data-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="wishlit.html"><i class="fa fa-heart-o"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <h3 class="title"> <a href="single-product.html">Classic Table Wodden</a></h3>
-                                <p class="product-price"><span class="discounted-price">$290.00</span></p>
-                            </div>
-                        </div>
-                        <!--  Single Grid product End -->
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <!--  Single Grid product Start -->
-                        <div class="single-grid-product mb-40">
-                            <div class="product-image">
-                                <a href="single-product.html">
-                                    <img src="{{url('assets')}}/assets/images/product/product-16.jpg" class="img-fluid" alt="">
-                                    <img src="{{url('assets')}}/assets/images/product/product-2.jpg" class="img-fluid" alt="">
-                                </a>
-
-                                <div class="product-action">
-                                    <ul>
-                                        <li><a href="cart.html"><i class="fa fa-cart-plus"></i></a></li>
-                                        <li><a href="#quick-view-modal-container" data-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="wishlit.html"><i class="fa fa-heart-o"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <h3 class="title"> <a href="single-product.html">Miniature Almari</a></h3>
-                                <p class="product-price"><span class="discounted-price">$230.00</span> <span class="main-price discounted">$250.00</span></p>
-                            </div>
-                        </div>
-                        <!--  Single Grid product End -->
                     </div>
                 </div>
             </div>
         </div>
-
-
     </div>
 </div>
 <!--Product section end-->
 
-
-<!-- Banner section start -->
-<div class="banner-section section pb-40 pb-sm-30 pb-xs-0">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <!-- Single Banner Start -->
-                <div class="single-banner-item pt-100 pt-md-80 pt-sm-70 pt-xs-50 pb-120 pb-md-100 pb-sm-90 pb-xs-50 mb-30 bg-image" data-bg="{{url('assets')}}/assets/images/banner/banner3.jpg">
-                    <div class="sp-banner-content">
-                        <span class="normat-text">DISCOUNTED UP TO 50%</span>
-                        <h2 class="title">Zigzag King Chair</h2>
-                        <span class="normat-text">LIMITED TIME OFEER</span>
-                        <div class="countdown-area">
-                            <div class="product-countdown" data-countdown="2019/06/01"></div>
-                        </div>
-                        <a href="shop.html">SHOP NOW</a>
-                    </div>
-                </div>
-                <!-- Single Banner End -->
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Banner section End -->
 
 
 
@@ -589,7 +324,7 @@
                     </div>
                     <div class="feature-content">
                         <h4 class="title">Free home delivery</h4>
-                        <p class="short-desc">Provide free home delivery for the all product over $100 </p>
+                        <p class="short-desc">Provide free home delivery for the all product over Rp.1.500.000 </p>
                     </div>
                 </div>
                 <!-- Single Feature End -->
@@ -614,8 +349,8 @@
                         <img src="{{url('assets')}}/assets/images/icons/feature-3.png" class="img-fluid" alt="">
                     </div>
                     <div class="feature-content">
-                        <h4 class="title">3 Days Return</h4>
-                        <p class="short-desc">Provide free home delivery for the all product over $100 </p>
+                        <h4 class="title">20 Hours Return</h4>
+                        <p class="short-desc">Provide free home delivery for the all product over Rp.1.500.000 </p>
                     </div>
                 </div>
                 <!-- Single Feature End -->

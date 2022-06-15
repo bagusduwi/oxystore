@@ -40,10 +40,10 @@
                             <div class="header-menu-area text-center">
                                 <nav class="main-menu">
                                     <ul>
-                                        <li><a href="index.html">Home</a>
+                                        <li><a href="/">Home</a>
                                             <ul class="sub-menu">
-                                                <li><a href="index.html">Home One</a></li>
-                                                <li><a href="index-2.html">Home Two</a></li>
+                                                <li><a href="/">Home One</a></li>
+                                                <li><a href="/">Home Two</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="shop.html">Shop</a>
@@ -149,7 +149,7 @@
                                             <!--Account Currency Start-->
                                             <li><a href="my-account.html">My account</a>
                                                 <ul>
-                                                    <li><a href="login-register.html">Login</a></li>
+                                                    <li><a href="login">Login</a></li>
                                                     <li><a href="checkout.html">Checkout</a></li>
                                                     <li><a href="my-account.html">My account</a></li>
                                                     <li><a href="cart.html">Cart</a></li>
